@@ -13,11 +13,14 @@
   width: auto;
   max-width: 1200px;
   text-align: center;
-  padding-left: 1em;
-  padding-right: 1em;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+}
+.navbar .container .navbar-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .main {
   flex-grow: 1;
