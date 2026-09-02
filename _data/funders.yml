@@ -1,0 +1,13 @@
+# Funding agency logos, shown on the About page.
+# Each entry needs: image (filename in images/), url
+# Recommended logo size: max-height 80px
+
+# EXAMPLE -- replace or delete
+#- image: NSF.png
+#  url: https://www.nsf.gov/
+#- image: doe_logo.png
+#  url: https://www.energy.gov/
+#- image: onr_logo.png
+#  url: https://www.onr.navy.mil/
+#- image: NIH-logo.png
+#  url: https://www.nih.gov/

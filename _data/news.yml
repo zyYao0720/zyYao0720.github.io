@@ -1,0 +1,13 @@
+# News items shown on the home page sidebar.
+# The 3 most recent are shown; all appear on /allnews.
+# Each entry needs: date, headline
+
+
+
+#- date: 6 February, 1986
+#  headline: "Appointed to the Rogers Commission investigating the Space Shuttle Challenger disaster"
+
+
+- date: 9 August, 2026
+  headline: "We won First Prize (1st Place) in 17th International Workshop on Computing Transportation Science (CTS) Algorithm Competition"
+  url: "https://mp.weixin.qq.com/s/t2V169zv2UwhIldjvBWXMA"
