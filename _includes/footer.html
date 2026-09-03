@@ -27,9 +27,17 @@
   <div class="footer-grid">
     <div class="footer-copyright" style="grid-column: 1 / -1;">
       &copy; {{ "now" | date: "%Y" }} {{ site.name | escape }}
+      <div class="footer-visitor-count">
+        Site visits: <span id="busuanzi_value_site_pv">-</span>
+        <span class="footer-count-divider">|</span>
+        Visitors: <span id="busuanzi_value_site_uv">-</span>
+      </div>
     </div>
   </div>
 </footer>
 
+{% if jekyll.environment == 'production' %}
+<script defer src="https://vercount.one/js"></script>
+{% endif %}
 <script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
 <script src="{{ "/assets/js/site.min.js" | relative_url }}"></script>

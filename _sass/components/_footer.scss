@@ -54,4 +54,16 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
   }
+
+  .footer-visitor-count {
+    margin-top: var(--space-2);
+    color: var(--text-muted);
+    font-size: 0.6875rem;
+    letter-spacing: 0.04em;
+  }
+
+  .footer-count-divider {
+    margin: 0 var(--space-2);
+    color: var(--border-color);
+  }
 }
