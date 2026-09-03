@@ -7,7 +7,7 @@ permalink: /publications/
 
 ## Publications
 
-<p class="pub-note"><strong>Bold</strong> indicates my name; <sup class="corresponding-author-marker">*</sup> indicates corresponding author.</p>
+<p class="pub-note"><strong>Bold</strong> indicates my name; <sup class="corresponding-author-marker">*</sup> indicates corresponding author; <span class="pub-badge pub-badge-esi">ESI Highly Cited Paper</span> marks ESI highly cited papers.</p>
 
 <input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year...">
 

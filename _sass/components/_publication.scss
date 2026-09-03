@@ -19,6 +19,33 @@
   margin-left: 0.08em;
 }
 
+.pub-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}
+
+.pub-badge {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  border-radius: var(--radius-sm);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  padding: 0.18rem 0.5rem;
+  text-transform: uppercase;
+}
+
+.pub-badge-esi {
+  background-color: rgba(214, 158, 46, 0.14);
+  border: 1px solid rgba(214, 158, 46, 0.45);
+  color: #a66500;
+}
+
 .pub-entry {
   padding: var(--space-6) 0;
   border-bottom: 1px solid var(--border-color);

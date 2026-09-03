@@ -4,6 +4,13 @@
 <div class="pub-entry" data-pub-searchable>
   <div class="text-justify">{{ reference | mark_publication_authors: entry }}</div>
 
+  {% assign esi_value = entry.esi | default: "" | downcase %}
+  {% if esi_value == "true" or esi_value == "yes" or esi_value == "highly cited" %}
+  <div class="pub-badges">
+    <span class="pub-badge pub-badge-esi">ESI Highly Cited Paper</span>
+  </div>
+  {% endif %}
+
   {% assign bibtest = false %}
   {% if entry.file %}
   {% assign bibfile = "/papers/" | append: entry.file %}
