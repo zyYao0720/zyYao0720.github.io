@@ -1,10 +1,11 @@
-{% if site.analytics.google_id and site.analytics.google_id != "" %}
+{% assign google_id = site.analytics.google_id | default: "" | strip %}
+{% if google_id != "" and google_id contains "G-" %}
 <!-- Google Analytics 4 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google_id }}"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ google_id }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', '{{ site.analytics.google_id }}');
+  gtag('config', '{{ google_id }}');
 </script>
 {% endif %}
