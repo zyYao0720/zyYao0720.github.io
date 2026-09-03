@@ -30,7 +30,7 @@ url: "https://zyyao0720.github.io"
 
 # Google Analytics 4 — paste your GA4 measurement ID, e.g. "G-XXXXXXXXXX"; leave blank to disable.
 analytics:
-  google_id: ""
+  google_id: "G-4XV03SPF3T"
 
 # ============================================================
 # STEP 4: Choose Your Pages (comment out any you don't need)
